@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --primary:#068091;
+    --secondary:#fe8800;
+    --light: #eaeaee;
+    --dark:#1d1d1d;
+}
+
+/* hero header */
+.hero-header {
+    background:linear-gradient(rgba(20,20,31,0.7),rgba(20,20,31,0.7)), url(gambar1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer */
+.container-footer {
+    width: 100%;
+    left:0;
+    right:0;
+  }
